@@ -1,0 +1,56 @@
+.edit-supplier-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    flex-direction: column;
+}
+
+.edit-supplier-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.edit-supplier-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-supplier-table {
+    width: 100%;
+}
+
+.edit-supplier-table td {
+    padding: 10px;
+}
+
+.edit-supplier-label {
+    font-weight: bold;
+}
+
+.edit-supplier-input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.edit-supplier-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-supplier-button:hover {
+    background-color: #45a049;
+}

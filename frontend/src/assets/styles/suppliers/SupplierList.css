@@ -1,0 +1,55 @@
+.supplier-list-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.supplier-list-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.supplier-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.supplier-list-table th, .supplier-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.supplier-list-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.supplier-list-row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.supplier-list-btn {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+}
+
+.supplier-list-btn:hover {
+    background-color: #45a049;
+}
+
+.supplier-list-btn-delete {
+    background-color: #f44336;
+}
+
+.supplier-list-btn-delete:hover {
+    background-color: #e53935;
+}

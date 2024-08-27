@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 800;
+    font-style: italic;
+}
+nav {
+    background-color: #090909;
+    overflow: hidden;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.navbar li Link {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li Link:hover {
+    background-color: #000000;
+}

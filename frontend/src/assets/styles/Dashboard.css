@@ -1,0 +1,53 @@
+.inventory-dashboard-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.inventory-dashboard-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.summary-view {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.summary-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.summary-item h2 {
+    margin-bottom: 10px;
+}
+
+.product-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.product-list-table th, .product-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.product-list-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.product-list-table tr.low-stock {
+    background-color: #ffcccc;
+}
+
+.product-list-table tr.low-stock td {
+    color: #d9534f;
+}
